@@ -1,0 +1,34 @@
+.wrapper {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 15px 15px;
+  background-color: #35394d;
+  display: flex;
+
+  input {
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    flex-grow: 1;
+    background-color: white;
+    color: #1c2c4c;
+    font-size: 1rem;
+
+    &:placeholder {
+      color: #ddd;
+    }
+  }
+  
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    background-color: #6b6f85;
+  }
+}
